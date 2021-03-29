@@ -1,13 +1,13 @@
-import ClassCounter from './components/ClassCounter';
-import HooksCounter from './components/HooksCounter';
+
+import HooksCounterTwo from './components/HooksCounterTwo';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
         {/* <h1>welcome to React Hooks</h1> */}
-        <ClassCounter />
-        <HooksCounter />
+       
+        <HooksCounterTwo />
     </div>
   );
 }

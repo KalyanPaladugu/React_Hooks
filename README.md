@@ -82,3 +82,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 + By using `useState` we can initialize state and assign to a variable with usage of array destructuring.To update state we can use callback function (etc. :setCount)
+
+### Rules of Hooks:
+===================
+* Only call Hooks at the Top level in component and not in conditions or loops
+* call them from with in functional component not in normal javascript functions
+
+### useState with previous state:
+=================================
+
+* If we want to update data by using previous state values we have to pass previous state variable as argument for the setCount method
