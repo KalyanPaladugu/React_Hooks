@@ -1,5 +1,5 @@
 
-import HooksCounterTwo from './components/HooksCounterTwo';
+import UseStateWithObject from './components/UseStateWithObject'
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
         {/* <h1>welcome to React Hooks</h1> */}
        
-        <HooksCounterTwo />
+       <UseStateWithObject />
     </div>
   );
 }
