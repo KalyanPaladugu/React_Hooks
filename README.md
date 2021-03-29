@@ -25,3 +25,7 @@
 -------------------------
 
 * useState doesn't update and merge the object automatically like setState in class component. To overcome this we will use spread operator.
+
+### useState with Array:
+------------------------
+* useState doesn't update and merge the Array automatically like setState in class component. To overcome this we will use spread operator.
