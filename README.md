@@ -79,3 +79,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * Avoid the confusion of using `this` keyword
 * Allow you to reuse statefull logic
 * Organize the logic inside a component into resuable isolated units
+
+
++ By using `useState` we can initialize state and assign to a variable with usage of array destructuring.To update state we can use callback function (etc. :setCount)
