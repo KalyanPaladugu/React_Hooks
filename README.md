@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### React Hooks:
+
+#### Summary
+===============
+* Hooks are new feature addition in react 16.8 version
+* They allow you to use React features with out having to write a class
+* Avoid the confusion of using `this` keyword
+* Allow you to reuse statefull logic
+* Organize the logic inside a component into resuable isolated units
