@@ -24,4 +24,4 @@
 ### useState with Object:
 -------------------------
 
-* useState doesn't update and merge the object automatically like setState in class component. To overcome this we will use spread operator
+* useState doesn't update and merge the object automatically like setState in class component. To overcome this we will use spread operator.
