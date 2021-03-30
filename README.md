@@ -112,7 +112,7 @@ getInitialState()
 
 
 
-## React lifecycle methods:
+### React lifecycle methods:
 ---------------------------
 
 * `componentWillMount` is executed before rendering, on both clientside and server side
@@ -122,3 +122,13 @@ getInitialState()
 * `componentWillUpdate` is called just before rendering
 * `componentDidUpdate` is called just after rendering
 * `componentWillUnMount` is called when the component is unmount from the DOM
+
+
+## useEffect:
+-------------
+
++ The Effect hook let's you perform side effects in functional compnents
++ It is close replacement for componentDidMount,componentDidUpdate and componentWillUnount
++ useEffect runs(calls) after every single render, But in class component at initial render we have to execute code with `componentDidMount` after render we have to execute same code with `componentDidUpdate`
+
++ To conditionally execute useEffect we have to pass array(either props or state) as second parameter

@@ -1,15 +1,13 @@
-
-import UseStateWithObject from './components/UseStateWithObject'
 import './App.css';
-import UseStatewithArray from './components/UseStateWithArray';
-import LifeCycleA from './components/LifeCycleA';
+import ClassCounterOne from './components/ClassCounterOne'
+import UseEffectCount from './components/UseEffectCount'
 function App() {
   return (
     <div className="App">
         {/* <h1>welcome to React Hooks</h1> */}
        
-       <LifeCycleA />
-  
+      {/* <ClassCounterOne/> */}
+   <UseEffectCount/>
     </div>
   );
 }
