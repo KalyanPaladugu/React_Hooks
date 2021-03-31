@@ -139,5 +139,6 @@ getInitialState()
 + In the useEffect if you don't want to do rerender then give emptylist as second parameter.If you want to do any effects then give particular variable in an array
 + In case if you increment previous variable in setCount there is no need to include variable in array
 
-### Fetching Data with useEffect:
---------------------------------
+### Fetching Data from REST API with useEffect:
+---------------------------------
++ To fetch data from the api normally we use Ajax call or fetch API. In react we can use axios 'try to install axios by using command `npm install axios` 
