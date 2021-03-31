@@ -10,6 +10,16 @@ constructor(props) {
     }
 }
 
+ logMousePosition = e =>{
+    this.setState({x:e.clientX,y:e.clientY})
+}
+componentDidMount(){
+    window.addEventListener('mousemove', this.logMousePosition)
+}
+
+componentWillUnmount(){
+    window.removeEventListener('mouseleave',this.logMousePosition)
+}
 
     render() {
         return (

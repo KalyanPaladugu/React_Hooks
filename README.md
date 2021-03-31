@@ -132,3 +132,4 @@ getInitialState()
 + useEffect runs(calls) after every single render, But in class component at initial render we have to execute code with `componentDidMount` after render we have to execute same code with `componentDidUpdate`
 
 + To conditionally execute useEffect we have to pass array(either props or state) as second parameter
++ If we want to cleanup code  we have to use componentWillUnmount() in class componet.But in hooks use useEffect() with in this try to return new function which will execute when the component is unmount

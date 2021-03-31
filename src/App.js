@@ -1,13 +1,14 @@
 import './App.css';
-import ClassCounterOne from './components/ClassCounterOne'
-import UseEffectCount from './components/UseEffectCount'
+import ClassMouse from './components/ClassMouse'
+import HookMouse from './components/HookMouse'
+import MouseContainer from './components/MouseContainer'
 function App() {
   return (
     <div className="App">
         {/* <h1>welcome to React Hooks</h1> */}
-       
-      {/* <ClassCounterOne/> */}
-   <UseEffectCount/>
+       {/* <ClassMouse /> */}
+       {/* <HookMouse /> */}
+       <MouseContainer />
     </div>
   );
 }
