@@ -127,9 +127,17 @@ getInitialState()
 ## useEffect:
 -------------
 
-+ The Effect hook let's you perform side effects in functional compnents
++ The Effect hook let's you perform side effects(timers,subscriptions etc...) in functional compnents
 + It is close replacement for componentDidMount,componentDidUpdate and componentWillUnount
 + useEffect runs(calls) after every single render, But in class component at initial render we have to execute code with `componentDidMount` after render we have to execute same code with `componentDidUpdate`
 
 + To conditionally execute useEffect we have to pass array(either props or state) as second parameter
 + If we want to cleanup code  we have to use componentWillUnmount() in class componet.But in hooks use useEffect() with in this try to return new function which will execute when the component is unmount
+
+### useEffect with incorect dependency:
+
++ In the useEffect if you don't want to do rerender then give emptylist as second parameter.If you want to do any effects then give particular variable in an array
++ In case if you increment previous variable in setCount there is no need to include variable in array
+
+### Fetching Data with useEffect:
+--------------------------------
