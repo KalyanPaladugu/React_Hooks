@@ -4,6 +4,7 @@ import ComponentC from './components/ComponentC'
 
 
 export  const UserContext=React.createContext()
+export const ChanelContext=React.createContext()
 function App() {
 
  
@@ -11,7 +12,10 @@ function App() {
   return (
     <div className="App">
        <UserContext.Provider value ={'kalyan'}>
-          <ComponentC />
+         <ChanelContext.Provider value={'Mr.Mk'}>
+         <ComponentC />
+         </ChanelContext.Provider>
+         
        </UserContext.Provider>
     </div>
   );

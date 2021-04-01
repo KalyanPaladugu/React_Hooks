@@ -1,14 +1,24 @@
 import React from 'react'
-import {UserContext} from '../App'
+import {ChanelContext, UserContext} from '../App'
 export default function ComponentF() {
     return (
         <div>
             <UserContext.Consumer>
                     {
                         user => {
-                            return <div>
-                              <h1>User Name is  {user}</h1> 
-                            </div>
+                            return (
+                                <ChanelContext.Consumer>
+                                   {
+                                       chanel =>{
+                                           return (
+                                               <h1> User is {user} and Chanel is {chanel}</h1>
+                                           )
+                                       }
+                                   }
+                                </ChanelContext.Consumer>
+                            )
+                            
+                           
                         }
                     }
             </UserContext.Consumer>
