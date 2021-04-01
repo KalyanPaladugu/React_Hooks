@@ -1,10 +1,18 @@
+import React from 'react'
 import './App.css';
-import DataFetching from './components/DataFetching'
+import ComponentC from './components/ComponentC'
+
+
+export  const UserContext=React.createContext()
 function App() {
+
+ 
+
   return (
     <div className="App">
-        {/* <h1>welcome to React Hooks</h1> */}
-      <DataFetching />
+       <UserContext.Provider value ={'kalyan'}>
+          <ComponentC />
+       </UserContext.Provider>
     </div>
   );
 }

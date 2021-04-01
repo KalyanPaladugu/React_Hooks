@@ -142,3 +142,23 @@ getInitialState()
 ### Fetching Data from REST API with useEffect:
 ---------------------------------
 + To fetch data from the api normally we use Ajax call or fetch API. In react we can use axios 'try to install axios by using command `npm install axios` 
+
+
+
+## Context:
+--------------
++ `Context` api provides a way to pass data through the component tree without having to pass props down manually at every level
+
+    1. Create Context
+    ```
+    const UserContext=React.createContext()
+    ```
+    2. Provide value for the context(provide must wrap the children component with the value to be available)
+
+    ```
+     <UserContext.Provider value ={'kalyan'}>
+          <ComponentC />
+       </UserContext.Provider>
+      
+       ```
+    3. Consume the context value in required component
