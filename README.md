@@ -162,3 +162,28 @@ getInitialState()
       
        ```
     3. Consume the context value in required component
+    ```
+    <ChanelContext.Consumer>
+                                   {
+                                       chanel =>{
+                                           return (
+                                               <h1> User is {user} and Chanel is {chanel}</h1>
+                                           )
+                                       }
+                                   }
+                                </ChanelContext.Consumer>
+    ```
+
++ When we working on `useContext` the context creation and providing value is same as  context api but in consumption it is simple.
+
++ We have to pass contexts as argument for the `useContext` and then render in to jsx
+
+
+## useReducer:
+-------------
+
++ useReducer is a hook that is used for state management
++ useReducer is alternative to useState
++ useState is built using useReducer
++ syntax is `useReducer(reducer,initialSate)`
+
