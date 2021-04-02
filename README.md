@@ -196,3 +196,8 @@ getInitialState()
 + useReducer state management
 + share state between components -Global state management
 + We can get global state by using useReducer with useContext
+
+### Fetching data with useReducer:
+----------------------------------
++ To fetch data from REST  API we will use useState(for manage state) and useEffect(for side effects) .For making HTTP cal we use axios
++ Define state variables to fetch data for the components
