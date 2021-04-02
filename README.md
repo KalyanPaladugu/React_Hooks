@@ -188,3 +188,11 @@ getInitialState()
 + syntax is `useReducer(reducer,initialSate)`
 
 + When handling object or array better to use `useReducer()` than `useState()`.If you want to use same code for different vaariables we can use multiple reducers.
+
+
+### useReducer with useContext:
+-------------------------------
+
++ useReducer state management
++ share state between components -Global state management
++ We can get global state by using useReducer with useContext
