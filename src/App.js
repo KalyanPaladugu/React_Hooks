@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import CountReducer from './components/CountReducer'
+import ComplexReducer from './components/ComplexReducer'
 
 
 
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <CountReducer />
+      <ComplexReducer />
     </div>
   );
 }
