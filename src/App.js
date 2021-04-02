@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import ComplexReducer from './components/ComplexReducer'
-
+import MultipleReducers from './components/MultipleReducers'
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      <ComplexReducer />
+      {/* <ComplexReducer /> */}
+      <MultipleReducers />
     </div>
   );
 }

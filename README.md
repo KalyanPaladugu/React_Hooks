@@ -187,3 +187,4 @@ getInitialState()
 + useState is built using useReducer
 + syntax is `useReducer(reducer,initialSate)`
 
++ When handling object or array better to use `useReducer()` than `useState()`.If you want to use same code for different vaariables we can use multiple reducers.
