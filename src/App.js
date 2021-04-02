@@ -1,12 +1,12 @@
 import React,{useReducer} from 'react'
 import './App.css';
-import DataFetchingOne from './components/DataFetchingOne'
+import DataFetchingWithReducer from './components/DataFetchingWithReducer'
 function App() {
   
  
 
   return (
-      <DataFetchingOne />
+      <DataFetchingWithReducer />
    );
 }
 

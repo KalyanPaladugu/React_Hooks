@@ -199,5 +199,16 @@ getInitialState()
 
 ### Fetching data with useReducer:
 ----------------------------------
+
+##### Data fetch with out useReducer( by using `useState()`):
+
 + To fetch data from REST  API we will use useState(for manage state) and useEffect(for side effects) .For making HTTP cal we use axios
 + Define state variables to fetch data for the components
+
+
+##### Data fetch with `useReducer()`:
+
++ Here declare state variables as properties in initial object
++ Include reducer function and initialState object in useReducer
++ With the help useEffect we can dispatch our actions ,whether the data fetching is success or failed
++ In JSX we can include data with state object 
