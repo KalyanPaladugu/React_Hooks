@@ -160,7 +160,7 @@ getInitialState()
           <ComponentC />
        </UserContext.Provider>
       
-       ```
+     ```
     3. Consume the context value in required component
 
 
