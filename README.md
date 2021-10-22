@@ -162,6 +162,8 @@ getInitialState()
       
        ```
     3. Consume the context value in required component
+
+
     ```
     <ChanelContext.Consumer>
                                    {
@@ -171,7 +173,8 @@ getInitialState()
                                            )
                                        }
                                    }
-                                </ChanelContext.Consumer>
+     </ChanelContext.Consumer>
+                                
     ```
 
 + When we working on `useContext` the context creation and providing value is same as  context api but in consumption it is simple.
